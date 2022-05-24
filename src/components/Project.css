@@ -1,0 +1,23 @@
+
+
+.project-card {
+    border: 1px solid var(--lightgrey);
+    border-radius: 20px;
+    margin: 10px;
+   
+}
+
+.name {
+    font-size: 20px;
+    color: rgb(224, 209, 0)
+}
+
+.desc {
+    font-size: 14px;
+    color: var(--lightgrey)
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
