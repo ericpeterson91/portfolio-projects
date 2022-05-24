@@ -22,6 +22,7 @@
 
 .hamburger {
     display: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 940px) {
