@@ -1,15 +1,13 @@
-import React from 'react'
-import './Contact.css'
-import emailjs from 'emailjs-com'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-
- 
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_1uu9i9c', e.target, 'ayyGYnL-Zut8YCKQJ')
+    emailjs.sendForm('service_m4dbcui', 'template_1uu9i9c', form.current, 'ayyGYnL-Zut8YCKQJ')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -18,33 +16,19 @@ const Contact = () => {
       e.target.reset()
   };
 
+  return (
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="name" />
+      <label>Subject</label>
+      <input type="text" name="subject" />
+      <label>Email</label>
+      <input type="email" name="email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form>
+  );
+};
 
-  return(
-   
-      <div className="contact-container">
-        <form onSubmit={sendEmail}>
-                <div className="">
-                    <div className="">
-                        <input type="text" className="" placeholder="Name" name="name"/>
-                    </div>
-                    <div className="">
-                        <input type="email" className="" placeholder="Email Address" name="email"/>
-                    </div>
-                    <div className="">
-                        <input type="text" className="" placeholder="Subject" name="subject"/>
-                    </div>
-                    <div className="">
-                        <textarea className="" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
-                    </div>
-                    <div className="">
-                        <input type="submit" className="" value="Send Message"></input>
-                    </div>
-                </div>
-            </form>
-        </div>
-    
-)
-}
-
-
-export default Contact
+export default Contact;

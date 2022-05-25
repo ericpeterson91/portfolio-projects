@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+gmail
+template_1uu9i9c
+ayyGYnL-Zut8YCKQJ
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
