@@ -37,10 +37,10 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="project-container">
-        <Project name={project1.name} src={project1img} description={project1.description} link={project1.link}/>
-        <Project name={project2.name} src={project2img} description={project2.description} link={project2.link}/>
-        <Project name={project3.name} src={project3img} description={project3.description} link={project3.link}/>
-        <Project name={project4.name} src={project4img} description={project4.description} link={project4.link}/>
+        <div><Project name={project1.name} src={project1img} description={project1.description} link={project1.link}/></div>
+        <div><Project name={project2.name} src={project2img} description={project2.description} link={project2.link}/></div>
+        <div><Project name={project3.name} src={project3img} description={project3.description} link={project3.link}/></div>
+        <div><Project name={project4.name} src={project4img} description={project4.description} link={project4.link}/></div>
       </div>
       <div className="footer">
         <a

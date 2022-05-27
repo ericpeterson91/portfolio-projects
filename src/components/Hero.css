@@ -1,6 +1,5 @@
 .hero {
     width: 100%;
-    /* height: 100vh; */
     background: var(--darkgrey);
 }
 
@@ -13,23 +12,27 @@
 .project-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     color: rgb(191, 53, 53);
-    height: 150vh;
-    width: 70vw;
+    height: 170vh;
+    width: 75vw;
     margin: 0 auto;
     align-items: center;
     text-align: center;
     justify-content: center;
-    /* border: 1px solid var(--lightgrey);
-    border-radius: 10px; */
-    /* gap: 20px; */
 }
 
 
-@media screen and (max-width:940px) {
+
+
+@media screen and (max-width:750px) {
     .hero {
         height: auto;
         width: 100%;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
     }
 }
 

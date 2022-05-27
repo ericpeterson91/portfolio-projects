@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 750px) {
     .nav-menu {
         position: fixed;
         left: -100%;
