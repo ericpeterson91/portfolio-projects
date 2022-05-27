@@ -29,9 +29,13 @@ const Hero = () => {
   }
   const project4 = {
       name: 'Personal Landing Page',
-      description: 'Personal landing page including a todo list, goals tracker, and a randomly generated motivational quote. This project was created with MongoDB, ExpressJS, React, and NodeJS. \n email: guest@something.com password: helloworld7',
+      description: 'Personal landing page created with the MERN stack.',
       link: 'https://landing-page-personal.herokuapp.com/'
   }
+
+  const guestLogin = 'Guest Login: '
+  const guestDesc = 'Email: guest@something.com'
+  const guestP = 'Password: helloworld7'
 
 
   return (
@@ -40,7 +44,7 @@ const Hero = () => {
         <div><Project name={project1.name} src={project1img} description={project1.description} link={project1.link}/></div>
         <div><Project name={project2.name} src={project2img} description={project2.description} link={project2.link}/></div>
         <div><Project name={project3.name} src={project3img} description={project3.description} link={project3.link}/></div>
-        <div><Project name={project4.name} src={project4img} description={project4.description} link={project4.link}/></div>
+        <div><Project name={project4.name} src={project4img} description={project4.description} link={project4.link} guestP={guestP}guestLogin={guestLogin} guestDesc={guestDesc}/></div>
       </div>
       <div className="footer">
         <a

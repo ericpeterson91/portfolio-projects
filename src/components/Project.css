@@ -11,7 +11,8 @@
 
 .name {
     font-size: 20px;
-    color: rgb(224, 209, 0)
+    color: var(--lightgrey);
+    font-weight: 700;
 }
 
 .desc {
@@ -24,4 +25,34 @@ img {
     width: 200px;
     border-radius: 10px;
     margin: 0 auto;
+}
+
+.p-link {
+    text-decoration: underline;
+}
+
+.guest {
+    color: rgb(0, 233, 124);
+    font-size: .8rem;
+}
+
+.guestD {
+    font-size: .8rem;
+    color: var(--lightgrey);
+    padding: 0 3px;
+}
+
+.guestP {
+    font-size: .8rem;
+    color: var(--lightgrey);
+    padding: 0 3px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    font-size: .8em;
+    line-height: 1.3em;
 }

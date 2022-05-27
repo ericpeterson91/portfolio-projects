@@ -1,4 +1,72 @@
-.about-container {
-    background: var(--darkgrey);
+.about-container {       
     height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    grid-template-rows: 280px 100px;
+    margin-top: 30px;
 }
+
+.about {
+    grid-row: span 2;
+    
+    margin: 0 auto;
+    align-self: start;
+}
+
+.img {
+    margin: 20px auto;
+    align-self: start;
+    border-radius: 50px;
+}
+
+.img-me {
+    border-radius: 50%;
+}
+
+.logo-container {
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.github {
+    color: #ccc;
+}
+
+.react {
+    color: #61DBFB;
+}
+
+.node {
+    color: #54ed84;
+}
+
+.js {
+    color: #FFFF00;
+}
+
+.css {
+    color: #FFA500;
+}
+
+.html {
+    color: #ff0000;
+}
+
+
