@@ -1,5 +1,66 @@
 .contact-container {
     background: var(--darkgrey);
     height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+    margin: 5px 0;
+}
+
+textarea {
+    margin: 5px 0;
+    height: 80px;
+    resize: none;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+a {
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40vh;
+}
+
+.github {
+    color: #fff;
+    
+}
+
+.linkedin {
+    color: #0A66C2;
+    margin-left: 20px;
+}
+
+input[type='submit'] {
+    background-color: rgb(70, 177, 70);
+    width: 30%;
+    cursor: pointer;
+    margin-top: 15px;
+    color: var(--white);
+    border: none;
 }
 
