@@ -14,7 +14,7 @@ const Navbar = () => {
                <h2>Eric's Developer Portfolio</h2>
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <li onClick={handleClick} className='nav-item'><Link to='/'>Projects </Link></li>
+                <li onClick={handleClick} className='nav-item'><Link to='/portfolio-projects'>Projects </Link></li>
                 <li onClick={handleClick} className='nav-item'><Link to='/about'>About Eric</Link></li>
                 <li onClick={handleClick} className='nav-item'><Link to='/contact'>Contact</Link></li>
             </ul>
