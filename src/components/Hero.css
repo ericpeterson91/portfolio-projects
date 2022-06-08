@@ -3,11 +3,6 @@
     background: var(--darkgrey);
 }
 
-.footer {
-    position: fixed;
-    bottom: 7px;
-    left: 7px;
-}
 
 .project-container {
     display: grid;

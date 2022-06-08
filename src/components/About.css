@@ -29,7 +29,8 @@
 .logo-container {
     margin: 50px auto;
     text-align: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
 }
 
@@ -69,4 +70,10 @@ h1 {
     color: #ff0000;
 }
 
+.mongo {
+    color: #4DB33D;
+}
 
+.express {
+    color: #68A063;
+}

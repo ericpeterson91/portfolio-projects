@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Hero.css";
 import project1img from '../images/project1img.png';
 import project2img from '../images/project2img.png';
@@ -46,14 +46,7 @@ const Hero = () => {
         <div><Project name={project3.name} src={project3img} description={project3.description} link={project3.link}/></div>
         <div><Project name={project4.name} src={project4img} description={project4.description} link={project4.link} guestP={guestP}guestLogin={guestLogin} guestDesc={guestDesc}/></div>
       </div>
-      <div className="footer">
-        <a
-          target="_blank"
-          href="https://github.com/ericpeterson91?tab=repositories"
-        >
-          <FaGithub size={25}/>
-        </a>
-      </div>
+     
     </div>
   );
 };
