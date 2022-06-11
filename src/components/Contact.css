@@ -64,3 +64,11 @@ input[type='submit'] {
     border: none;
 }
 
+@media  screen and (max-width: 750px) {
+    .contact-container {
+        background: var(--darkgrey);
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

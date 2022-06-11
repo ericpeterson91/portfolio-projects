@@ -77,3 +77,16 @@ h1 {
 .express {
     color: #68A063;
 }
+
+@media  screen and (max-width: 750px) {
+    .about-container {       
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 0 50px;
+        grid-template-rows: 280px 100px;
+        margin-top: 30px;
+    }
+}

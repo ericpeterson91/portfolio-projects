@@ -1,9 +1,12 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
+
+  
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -25,6 +28,7 @@ const Contact = () => {
         }
       );
     e.target.reset();
+    alert('Email sent successfully!')
   };
 
   return (
