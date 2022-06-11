@@ -17,7 +17,7 @@
 
 .desc {
     font-size: 14px;
-    color: var(--lightgrey)
+    color: #8bc9ff;
 }
 
 img {
@@ -29,6 +29,7 @@ img {
 
 .p-link {
     text-decoration: underline;
+    color: var(--lightgrey);
 }
 
 .guest {

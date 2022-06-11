@@ -1,6 +1,5 @@
 import React from "react";
 import Project from "./Project";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Hero.css";
 import project1img from '../images/project1img.png';
 import project2img from '../images/project2img.png';

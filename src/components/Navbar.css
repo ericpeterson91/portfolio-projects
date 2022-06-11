@@ -8,6 +8,10 @@
     background-color: var(--darkgrey);
 }
 
+.title {
+    color: #8bc9ff;
+}
+
 .navbar img {
     width: 80px;
 }
