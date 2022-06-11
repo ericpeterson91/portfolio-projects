@@ -20,7 +20,10 @@ input {
     height: 30px;
     margin: 5px 0;
 }
-
+.success {
+    text-align: center;
+    transition: 1s ease-in;
+}
 textarea {
     margin: 5px 0;
     height: 80px;
@@ -70,5 +73,8 @@ input[type='submit'] {
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .icon-container {
+        margin-top: -40px;
     }
 }
