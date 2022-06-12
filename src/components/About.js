@@ -7,24 +7,24 @@ import { SiExpress, SiMongodb } from 'react-icons/si'
 const About = () => {
   return (
     <div className='about-container'>
-      <div className='img'>
+      <div className='img-container'>
         <img className='img-me'src={me} alt="" />
       </div>
-      <div className='about'>
+      <div className='desc-container'>
         <h1>About Eric</h1>
         <p> Eric is full stack web developer from Saskatoon, Saskatchewan. <br /> <br />Eric is passionate about the world of JavaScript, and the world of software development more generally. <br /><br /> Eric is open to work in Saskatoon, relocating cities for work, and also full-time remote work.</p>
       </div>
       
       <div className='logo-container'>
         
-        <FaGithub size={40} className='github' />
-        <FaNode size={40} className='node'  />
-        <SiExpress size={40} className='express' />
-        <FaReact size={40} className='react' />
-        <FaJsSquare size={40} className='js' />
-        <FaCss3Alt size={40} className='css' />
-        <FaHtml5 size={40} className='html' />
-        <SiMongodb size={40} className='mongo' />
+        <FaGithub size={60} className='github' />
+        <FaNode size={60} className='node'  />
+        <SiExpress size={60} className='express' />
+        <FaReact size={60} className='react' />
+        <FaJsSquare size={60} className='js' />
+        <FaCss3Alt size={60} className='css' />
+        <FaHtml5 size={60} className='html' />
+        <SiMongodb size={60} className='mongo' />
       </div>
       
     </div>

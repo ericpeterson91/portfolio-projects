@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     font-size: 20px;
+    margin-top: 40px;
 }
 h2 {
     text-align: center;
