@@ -56,4 +56,10 @@
     .hamburger {
         display: flex;
     }
+
+    .title {
+        color: #8bc9ff;
+        margin-top: 18px;
+        font-size: 20px;
+    }
 }
