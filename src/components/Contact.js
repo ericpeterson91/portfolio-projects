@@ -60,9 +60,8 @@ const Contact = () => {
     <div className="contact-container">
       <div className="form-container">
         <h2>Send Eric an email below:</h2>
-        {submitted ? <div className='success'>Email sent succesfully!</div> : null}
         <form className="form" ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
+          <label>Your Name</label>
           <input
             disabled={submitted}
             onChange={nameChange}
@@ -78,7 +77,7 @@ const Contact = () => {
             type="text"
             name="subject"
           />
-          <label>Email</label>
+          <label>Your Email Address</label>
           <input
             disabled={submitted}
             onChange={emailChange}
@@ -94,22 +93,24 @@ const Contact = () => {
             name="message"
           />
           <input type="submit" value="Send" />
+        
+        {submitted ? <div className='success'>Email sent succesfully!</div> : null}
         </form>
       </div>
       <div className="icon-container">
-        <h2>Links:</h2>
+        <h1>Links:</h1>
         <div className="icons">
           <a
             target="_blank"
             href="https://github.com/ericpeterson91?tab=repositories"
           >
-            <FaGithub size={45} className="github" />
+            <FaGithub size={60} className="github" />
           </a>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/eric-peterson-110a62162/"
           >
-            <FaLinkedin size={45} className="linkedin" />
+            <FaLinkedin size={60} className="linkedin" />
           </a>
         </div>
       </div>

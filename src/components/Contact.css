@@ -3,6 +3,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    font-size: 20px;
 }
 h2 {
     text-align: center;
@@ -17,12 +18,14 @@ h2 {
 
 input {
     border-radius: 5px;
-    height: 30px;
+    height: 40px;
     margin: 5px 0;
 }
 .success {
-    text-align: center;
+    text-align: left;
+    margin-top: 20px;
     transition: 1s ease-in;
+    font-size: 24px;
 }
 textarea {
     margin: 5px 0;
@@ -35,6 +38,7 @@ textarea {
     flex-direction: column;
     height: 100vh;
     justify-content: center;
+    margin-right: 40px;
 }
 
 a {
@@ -45,7 +49,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 40vh;
+    height: 50vh;
 }
 
 .github {
@@ -67,6 +71,12 @@ input[type='submit'] {
     border: none;
 }
 
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 @media  screen and (max-width: 750px) {
     .contact-container {
         background: var(--darkgrey);
@@ -76,5 +86,9 @@ input[type='submit'] {
     }
     .icon-container {
         margin-top: -40px;
+    }
+
+    input[type='submit'] {
+        width: 100%;
     }
 }
