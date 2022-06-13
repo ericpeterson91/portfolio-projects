@@ -38,6 +38,8 @@ img {
 
 .guest {
     color: rgb(0, 233, 124);  
+    font-weight: bold;
+    letter-spacing: .05rem;
 }
 
 .guestD {
@@ -54,14 +56,10 @@ img {
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 1em;
     line-height: 1.3em;
 }
-
-/* .login-container > a {
-    margin-right: 20px;
-} */
 
 .guest-container {
     text-align: left;
@@ -73,4 +71,23 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+    .img-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p-link {
+        margin-right: 40px;
+    }
+
+    img {
+        margin-left: 40px;
+    }
+
+    .guest-container {
+        font-size: 14px;
+    }
 }

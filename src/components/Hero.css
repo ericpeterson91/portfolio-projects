@@ -21,7 +21,7 @@
         width: 100%;
     }
 
-    .project-container {
+    .cards {
         grid-template-columns: 1fr;
     }
 }
