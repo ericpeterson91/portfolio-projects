@@ -16,7 +16,9 @@
 }
 
 .desc {
-    font-size: 14px;
+    font-size: 18px;
+    text-align: left;
+    margin: 0px 20px;
     color: var(--lightgrey);
 }
 
@@ -35,29 +37,36 @@ img {
 }
 
 .guest {
-    color: rgb(0, 233, 124);
-    font-size: .8rem;
+    color: rgb(0, 233, 124);  
 }
 
 .guestD {
-    font-size: .8rem;
     color: var(--lightgrey);
     padding: 0 3px;
 }
 
 .guestP {
-    font-size: .8rem;
     color: var(--lightgrey);
     padding: 0 3px;
 }
 
 .login-container {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 10px;
-    font-size: .8em;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    justify-content: space-between;
+    font-size: 1em;
     line-height: 1.3em;
+}
+
+/* .login-container > a {
+    margin-right: 20px;
+} */
+
+.guest-container {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 15px;
 }
 
 .img-container {
