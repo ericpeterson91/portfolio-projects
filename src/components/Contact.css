@@ -1,8 +1,8 @@
 .contact-container {
     background: var(--darkgrey);
-    height: 100vh;
+    height: 90vh;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
     font-size: 20px;
     margin-top: 40px;
 }
@@ -37,9 +37,9 @@ textarea {
 .icon-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 90vh;
     justify-content: center;
-    margin-right: 40px;
+    align-items: center;
 }
 
 a {
