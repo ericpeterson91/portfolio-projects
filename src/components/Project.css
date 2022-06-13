@@ -1,35 +1,36 @@
 .project-card {
-    border: 1px solid var(--lightgrey);
-    border-radius: 20px;
+    background: rgb(80, 80, 80);
+    border-radius: 10px;
     margin: 10px; 
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
+    box-shadow: 0 8px 16px rgba(0,0,0,0.07);
 }
 
 .name {
-    font-size: 20px;
-    color: var(--lightgrey);
+    font-size: 25px;
+    color: var(--lightblue);
     font-weight: 700;
 }
 
 .desc {
     font-size: 14px;
-    color: #8bc9ff;
+    color: var(--lightgrey);
 }
 
 img {
     height: 200px;
-    width: 200px;
+    width: 60%;
     border-radius: 10px;
     margin: 0 auto;
 }
 
 .p-link {
     text-decoration: underline;
-    color: var(--lightgrey);
+    font-size: 20px;
+    color: var(--lightblue);
 }
 
 .guest {

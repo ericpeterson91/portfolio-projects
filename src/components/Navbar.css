@@ -10,7 +10,7 @@
 }
 
 .title {
-    color: #8bc9ff;
+    color: var(--lightblue);
     padding-top: 10px;
     font-size: 30px;
 }
