@@ -45,6 +45,7 @@
         height: 100%;
         text-align: center;
         transition: 0.4s;
+        z-index: 999;
     }
 
     .nav-menu.active {
