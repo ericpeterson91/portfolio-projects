@@ -1,10 +1,11 @@
 .contact-container {
     background: var(--darkgrey);
-    height: 90vh;
     display: grid;
+    height: 90vh;
     grid-template-columns: 1.5fr 1fr;
     font-size: 20px;
     margin-top: 40px;
+ 
 }
 h2 {
     text-align: center;
@@ -35,11 +36,7 @@ textarea {
 }
 
 .icon-container {
-    display: flex;
-    flex-direction: column;
-    height: 90vh;
-    justify-content: center;
-    align-items: center;
+    align-self: center;
 }
 
 a {

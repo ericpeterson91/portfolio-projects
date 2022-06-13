@@ -1,21 +1,18 @@
-.hero {
-    width: 100%;
+
+
+
+.cards {
     background: var(--darkgrey);
-}
-
-
-.project-container {
-    /* margin-top: 40px; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     color: rgb(191, 53, 53);
-    height: 100vh;
-    width: 75vw;
-    margin: 30px auto;
+    width: 80vw;
+    margin: 30px auto 50px;
     align-items: center;
     text-align: center;
     justify-content: center;
+    gap: 40px;
 }
 
 
