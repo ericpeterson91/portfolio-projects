@@ -22,15 +22,16 @@
 
 img {
     height: 200px;
-    width: 60%;
+    width: 200px;
     border-radius: 10px;
-    margin: 0 auto;
 }
 
 .p-link {
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 22px;
     color: var(--lightblue);
+    align-self: center;
+    padding-left: 80px;
 }
 
 .guest {
@@ -57,4 +58,10 @@ img {
     margin-left: 10px;
     font-size: .8em;
     line-height: 1.3em;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
