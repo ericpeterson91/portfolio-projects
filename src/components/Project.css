@@ -94,4 +94,8 @@ img {
     .guest-container {
         font-size: 14px;
     }
+
+    .project-card {
+        border-radius: 0px;
+    }
 }

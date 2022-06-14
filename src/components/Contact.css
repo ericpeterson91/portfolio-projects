@@ -68,6 +68,7 @@ input[type='submit'] {
     margin-top: 15px;
     color: var(--white);
     border: none;
+    font-size: 16px;
 }
 
 .input-container {
@@ -84,10 +85,25 @@ input[type='submit'] {
         grid-template-columns: 1fr;
     }
     .icon-container {
-        margin-top: -40px;
+        margin: 20px auto 30px;
     }
 
     input[type='submit'] {
         width: 100%;
+    }
+
+    h2 {
+        width: 80vw;
+        margin: 0 auto;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .icons {
+        margin-top: -40px;
+    }
+
+    .form {
+        width: 70%;
     }
 }

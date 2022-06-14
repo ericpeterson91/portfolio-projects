@@ -59,7 +59,7 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <div className="form-container">
-        <h2>Send Eric an email below:</h2>
+        <h2>Send Eric an email:</h2>
         <form className="form" ref={form} onSubmit={sendEmail}>
           <label>Your Name</label>
           <input

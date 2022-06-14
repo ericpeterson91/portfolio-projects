@@ -96,12 +96,12 @@ h1 {
     .logo-container {
         grid-column: span 1;
         grid-template-columns: repeat(4, 1fr);
-        margin-top: 30px;
+        margin-top: 50px;
         margin-bottom: 30px;
     }
 
     h1 {
-        margin-top: 60px;
+        margin: 60px auto;
     }
 
     p {
@@ -109,5 +109,9 @@ h1 {
         margin-top: 60px;
         width: 80vw;
         text-align: left;
+    }
+
+    .img-me {
+       margin: 0 auto;
     }
 }
