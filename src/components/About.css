@@ -5,7 +5,7 @@
     align-items: center;
     margin: 0 50px;
     grid-template-rows: 1fr 1fr;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .desc-container { 
@@ -28,11 +28,11 @@
 .logo-container {
     grid-column: span 2;
     margin: 0 auto;
-    padding-top: 30px;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 30px;
+    margin-top: -40px;
 }
 
 h1 {
