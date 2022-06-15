@@ -37,8 +37,8 @@ const Hero = () => {
   }
 
   const guestLogin = 'Guest Login: '
-  const guestDesc = 'Email: guest@something.com'
-  const guestP = 'Password: helloworld7'
+  const guestDesc = 'Email: hello@world.com'
+  const guestP = 'Password: guest123'
 
 
   return (
