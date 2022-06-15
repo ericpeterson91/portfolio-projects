@@ -9,6 +9,7 @@ const Project = ({
   guestLogin,
   guestDesc,
   guestP,
+  appType
 }) => {
   return (
     <div className="project-card">
@@ -16,10 +17,12 @@ const Project = ({
 
       <div className="desc">{description}</div>
 
-      <div className="img-container">
+      <div className="bottom-container">
+        <div>
         <img src={src} className="src" />
-
+        </div>
         <div className="login-container">
+          <div className="app-type">{appType}</div>
           <div className='guest-container'>
             <div className="guest">{guestLogin}</div>
             <div className="guestD">{guestDesc}</div>
