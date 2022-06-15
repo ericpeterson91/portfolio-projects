@@ -79,13 +79,17 @@ img {
 .app-type {
     margin: 0 auto;
     color: var(--lightblue);
-    font-size: 16px;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 700px) {
     
     .p-link {
         font-size: 18px;
+    }
+
+    .app-type {
+        font-size: 16px;
     }
 
     img {
