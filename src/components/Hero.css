@@ -16,13 +16,10 @@
 
 
 @media screen and (max-width:750px) {
-    .hero {
-        height: auto;
-        width: 80vw;
-    }
 
     .cards {
         grid-template-columns: 1fr;
+        width: 100vw;
     }
 }
 

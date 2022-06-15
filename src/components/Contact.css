@@ -61,7 +61,7 @@ a {
     margin-left: 20px;
 }
 
-input[type='submit'] {
+.submit {
     background-color: rgb(70, 177, 70);
     width: 30%;
     cursor: pointer;
@@ -88,9 +88,8 @@ input[type='submit'] {
         margin: 20px auto 30px;
     }
 
-    input[type='submit'] {
+    .submit {
         width: 100%;
-        border-radius: 2px;
     }
 
     h2 {

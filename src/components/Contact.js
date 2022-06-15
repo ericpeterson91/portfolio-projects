@@ -92,7 +92,7 @@ const Contact = () => {
             value={values.message}
             name="message"
           />
-          <input type="submit" value="Send" />
+          <input className='submit' type="submit" value="Send" />
         
         {submitted ? <div className='success'>Email sent succesfully!</div> : null}
         </form>

@@ -32,8 +32,6 @@ img {
     text-decoration: underline;
     font-size: 22px;
     color: var(--lightblue);
-    /* align-self: center; */
-    /* padding-left: 80px; */
 }
 
 .guest {
@@ -85,11 +83,8 @@ img {
 
 @media screen and (max-width: 700px) {
     
-
     .p-link {
-        margin-right: 40px;
-        width: 120%;
-        transform: translateX(-22%);
+        font-size: 18px;
     }
 
     img {
@@ -99,7 +94,7 @@ img {
     }
 
     .guest-container {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .project-card {
