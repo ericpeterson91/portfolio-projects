@@ -78,6 +78,7 @@ img {
 
 .app-type {
     margin: 0 auto;
+    padding-right: 10px;
     color: var(--lightblue);
     font-size: 17px;
 }
@@ -104,6 +105,7 @@ img {
    }
     .app-type {
         font-size: 16px;
+        padding: 0;
     }
 
     img {
