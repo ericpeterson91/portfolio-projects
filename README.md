@@ -1,5 +1,7 @@
 ## Personal software development portfolio
 
+<br />
+
 ### Includes Projects, About me page, and a Contact me page
 
 <br/>
