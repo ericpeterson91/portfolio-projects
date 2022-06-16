@@ -82,12 +82,26 @@ img {
     font-size: 17px;
 }
 
+.p4Link {
+    display: none;
+    font-size: 20px;
+    color: var(--lightblue);
+}
+
 @media screen and (max-width: 700px) {
     
     .p-link {
         font-size: 18px;
     }
 
+    #p4 {
+        display: none;
+    }
+
+   .p4Link {
+       display: block;
+       font-size: 18px;
+   }
     .app-type {
         font-size: 16px;
     }

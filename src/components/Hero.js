@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./Project";
+import Project4 from "./Project4";
 import "./Hero.css";
 import project1img from '../images/project1img.png';
 import project2img from '../images/project2img.png';
@@ -36,9 +37,6 @@ const Hero = () => {
       appType: 'Desktop Application'
   }
 
-  const guestLogin = 'Guest Login: '
-  const guestDesc = 'Email: hello@world.com'
-  const guestP = 'Password: guest123'
 
 
   return (
@@ -47,7 +45,7 @@ const Hero = () => {
         <Project name={project1.name} src={project1img} description={project1.description} link={project1.link} appType={project1.appType}/>
         <Project name={project2.name} src={project2img} description={project2.description} link={project2.link} appType={project2.appType}/>
         <Project name={project3.name} src={project3img} description={project3.description} link={project3.link} appType={project3.appType}/>
-        <Project name={project4.name} src={project4img} description={project4.description} link={project4.link} appType={project4.appType}guestP={guestP}guestLogin={guestLogin} guestDesc={guestDesc}/>
+        <Project4 name={project4.name} src={project4img} description={project4.description} link={project4.link} appType={project4.appType} />
       </div>
      
     </div>

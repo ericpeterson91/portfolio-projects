@@ -85,7 +85,7 @@ a {
         grid-template-columns: 1fr;
     }
     .icon-container {
-        margin: 10px auto 40px;
+        margin: -10px auto 50px;
     }
 
     .submit {
