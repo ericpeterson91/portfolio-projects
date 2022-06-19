@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className='desc-container'>
         <h1>About Eric</h1>
-        <p> Eric is a full stack web developer from Saskatoon, Saskatchewan. <br /> <br />Eric is passionate about building quality user interfaces, client and server side JavaScript, and the world of software development more generally. <br /><br /> Eric is open to work in Saskatoon, relocating cities for work, and also full-time remote work.</p>
+        <p> Eric is a full stack software developer from Saskatoon, Saskatchewan. <br /> <br />Eric is passionate about client and server side JavaScript, and the world of software development in general. <br /><br /> Eric is open to work in Saskatoon, relocating cities for work, and also full-time remote work.</p>
       </div>
       
       <div className='logo-container'>
