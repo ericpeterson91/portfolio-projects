@@ -6,6 +6,7 @@ import project1img from '../images/project1img.png';
 import project2img from '../images/project2img.png';
 import project3img from '../images/project3img.png';
 import project4img from '../images/project4img.png';
+import {Helmet} from "react-helmet";
 
 
 
@@ -41,6 +42,7 @@ const Hero = () => {
 
   return (
     <div className="hero-container">
+    
       <div className="cards">
         <Project name={project1.name} src={project1img} description={project1.description} link={project1.link} appType={project1.appType}/>
         <Project name={project2.name} src={project2img} description={project2.description} link={project2.link} appType={project2.appType}/>

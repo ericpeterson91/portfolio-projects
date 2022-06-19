@@ -4,10 +4,17 @@ import Hero from './components/Hero'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import About from './components/About'
 import Contact from './components/Contact'
+import {Helmet} from "react-helmet";
 
 function App() {
   return (
     <>
+       <Helmet>
+                <meta charSet="utf-8" />
+                <title>Eric's Developer Portfolio</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta name="description" content="Developer Portfolio" />
+        </Helmet>
       <Router >
       <Navbar />
         <Routes>
