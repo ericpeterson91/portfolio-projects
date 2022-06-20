@@ -14,7 +14,7 @@ const Hero = () => {
 
   const project1 = {
       name: '2021 Year in Review Game',
-      description: '2021 Year-In-Review slot machine style game. This game was created with HTML, CSS, and Vanilla JavaScript.',
+      description: '2021 Year-in-Review slot machine style game. This game was created with HTML, CSS, and Vanilla JavaScript.',
       link: 'https://ericpeterson91.github.io/2021-year-in-review/',
       appType: 'Desktop/Mobile Application'
   }
