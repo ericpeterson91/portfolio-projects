@@ -39,9 +39,9 @@ const Hero = () => {
     appType: "Desktop Application",
   };
   const reactNotes = {
-    name: "Notes App built in React",
+    name: "Notes App",
     description:
-      "Simple React notes app with search functionality. Notes persist in local storage. This project was built from a YouTube tutorial.",
+      "Simple notes app built in React with search functionality. Notes persist in local storage. This project was built from a YouTube tutorial.",
     link: "https://ericpeterson91.github.io/react-notes/",
     appType: "Desktop/Mobile Application",
   };
