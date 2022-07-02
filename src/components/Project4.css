@@ -2,7 +2,7 @@
     background: rgb(80, 80, 80);
     border-radius: 10px;
     margin: 10px; 
-    height: 400px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -16,7 +16,7 @@
 }
 
 .desc {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     padding: 10px 20px;
     color: var(--lightgrey);
@@ -30,7 +30,7 @@ img {
 
 .p-link {
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 22px;
     color: var(--lightblue);
 }
 
@@ -64,7 +64,8 @@ img {
 .guest-container {
     text-align: center;
     margin: 32px auto;
-    font-size: 15px;
+    font-size: 17px;
+    line-height: 1.5em;
 }
 
 .bottom-container {
@@ -80,7 +81,7 @@ img {
     margin: 0 auto;
     padding-right: 10px;
     color: var(--lightblue);
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .p4Link {

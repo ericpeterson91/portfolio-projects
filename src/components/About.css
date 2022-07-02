@@ -3,9 +3,9 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin: 0 50px;
+    margin: 60px auto;
     grid-template-rows: 1fr 1fr;
-    margin-top: 60px;
+    max-width: 1500px;
 }
 
 .desc-container { 
@@ -32,7 +32,7 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 30px;
-    margin-top: -120px;
+    margin-bottom: 40px;
 }
 
 h1 {

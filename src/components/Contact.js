@@ -35,25 +35,23 @@ const Contact = () => {
     e.preventDefault();
     if (values.name && values.subject && values.email && values.message) {
       emailjs
-      .sendForm(
-        "service_m4dbcui",
-        "template_1uu9i9c",
-        form.current,
-        "ayyGYnL-Zut8YCKQJ"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-    setSubmitted(true);
+        .sendForm(
+          "service_m4dbcui",
+          "template_1uu9i9c",
+          form.current,
+          "ayyGYnL-Zut8YCKQJ"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      e.target.reset();
+      setSubmitted(true);
     }
-
-    
   };
 
   return (
@@ -92,9 +90,11 @@ const Contact = () => {
             value={values.message}
             name="message"
           />
-          <input className='submit' type="submit" value="Send" />
-        
-        {submitted ? <div className='success'>Email sent succesfully!</div> : null}
+          <input className="submit" type="submit" value="Send" />
+
+          {submitted ? (
+            <div className="success">Email sent succesfully!</div>
+          ) : null}
         </form>
       </div>
       <div className="icon-container">

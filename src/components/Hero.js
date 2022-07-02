@@ -8,8 +8,6 @@ import project3img from "../images/project3img.png";
 import project4img from "../images/project4img.png";
 import reactNotesimg from "../images/reactnotes.png";
 
-import { Helmet } from "react-helmet";
-
 const Hero = () => {
   const project1 = {
     name: "2021 Year in Review Game",
@@ -41,7 +39,7 @@ const Hero = () => {
   const reactNotes = {
     name: "Notes App",
     description:
-      "Simple notes app built in React with search functionality. Notes persist in local storage. This project was built from a YouTube tutorial.",
+      "Simple notes app built in React. Notes persist in local storage. This project was built from a YouTube tutorial.",
     link: "https://ericpeterson91.github.io/react-notes/",
     appType: "Desktop/Mobile Application",
   };

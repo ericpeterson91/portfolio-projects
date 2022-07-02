@@ -4,8 +4,8 @@
     height: 90vh;
     grid-template-columns: 1.5fr 1fr;
     font-size: 20px;
-    margin-top: 60px;
- 
+    margin: 60px auto;
+    max-width: 1400px;
 }
 h2 {
     text-align: center;
@@ -37,6 +37,7 @@ textarea {
 
 .icon-container {
     align-self: center;
+    margin-bottom: 100px;
     margin-right: 100px;
 }
 
