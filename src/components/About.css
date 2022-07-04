@@ -43,6 +43,7 @@ h1 {
 p {
     margin-top: 20px;
     font-size: 24px;
+    margin-right: 30px;
 }
 
 h1 {
@@ -109,6 +110,7 @@ h1 {
         margin-top: 40px;
         width: 80vw;
         text-align: left;
+        margin-right: 0;
     }
 
     .img-me {
