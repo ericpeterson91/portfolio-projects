@@ -6,6 +6,7 @@
     margin: 60px auto;
     grid-template-rows: 1fr 1fr;
     max-width: 1500px;
+    height: 88vh;
 }
 
 .desc-container { 
@@ -32,7 +33,6 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 30px;
-    margin-bottom: 40px;
 }
 
 h1 {
