@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import me from "../images/Eric.jpeg";
+import ga from '../images/ga.png'
 import {
   FaGithub,
   FaReact,
@@ -18,7 +19,7 @@ const About = () => {
         <img className="img-me" src={me} alt="" />
       </div>
       <div className="desc-container">
-        <h1>About Eric</h1>
+        
         <p>
           Eric is a full stack software developer from Saskatoon, Saskatchewan.{" "}
           <br /> <br />
@@ -27,6 +28,10 @@ const About = () => {
           <br /> Eric is open to work in Saskatoon, relocating cities for work,
           and also full-time remote work.
         </p>
+      </div>
+      <div className='course-container'>
+      <span>Completed General Assembly's  <img className='ga-img' src={ga} alt="" />  software engineering immersive program.</span>
+       
       </div>
 
       <div className="logo-container">
