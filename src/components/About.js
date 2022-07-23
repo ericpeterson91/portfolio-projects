@@ -11,6 +11,7 @@ import {
   FaHtml5,
 } from "react-icons/fa";
 import { SiExpress, SiMongodb } from "react-icons/si";
+import {FcCheckmark} from 'react-icons/fc'
 
 const About = () => {
   return (
@@ -30,7 +31,7 @@ const About = () => {
       </div>
       <div className="course-container">
         <p className="course">
-          Completed General Assembly's software engineering immersive program.
+          <FcCheckmark size={33} className='check'/> Completed General Assembly's software engineering immersive program.
         </p>
         <img className="ga-img" src={ga} alt="" />
       </div>

@@ -70,6 +70,10 @@ p {
     color: var(--lightblue)
 }
 
+.check {
+   transform: translateY(3px)
+}
+
 h1 {
     margin-bottom: 10px;
 }
