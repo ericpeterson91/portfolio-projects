@@ -21,7 +21,7 @@ const About = () => {
       </div>
       <div className="desc-container">
         <p>
-          Eric is a full stack software developer from Saskatoon, Saskatchewan.{" "}
+          Eric is a full stack software developer living in Calgary, Alberta.{" "}
           <br /> <br />
           Eric is passionate about client and server side JavaScript, and the
           world of software development in general. <br />
