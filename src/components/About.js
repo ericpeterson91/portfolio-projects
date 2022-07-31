@@ -25,8 +25,7 @@ const About = () => {
           <br /> <br />
           Eric is passionate about client and server side JavaScript, and the
           world of software development in general. <br />
-          <br /> Eric is open to work in Saskatoon, relocating cities for work,
-          and also full-time remote work.
+          <br /> Eric is open to work within Calgary, and also to work that is fully remote. 
         </p>
       </div>
       <div className="course-container">
