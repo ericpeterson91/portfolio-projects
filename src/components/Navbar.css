@@ -46,7 +46,7 @@
         text-align: center;
         transition: 0.4s;
         z-index: 999;
-        padding-bottom: 50px;
+        padding-bottom: 80px;
     }
 
     .nav-menu.active {
