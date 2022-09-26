@@ -10,6 +10,20 @@
     box-shadow: 0 8px 16px rgba(0,0,0,0.07);
 }
 
+.project-card:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateY(-7px)
+    }
+    100% {
+        transform: translateY(0px)
+    }
+}
+
 .name {
     font-size: 25px;
     color: var(--lightblue);
@@ -33,6 +47,12 @@ img {
     text-decoration: underline;
     font-size: 20px;
     color: var(--lightblue);
+    transition: 0.5s;
+}
+
+.p-link:hover {
+    color: rgb(3, 224, 113);
+    
 }
 
 .guest {
