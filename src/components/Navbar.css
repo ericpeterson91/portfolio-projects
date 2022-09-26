@@ -26,6 +26,11 @@
 .nav-item {
     padding: 0 20px;
     font-size: 20px;
+    transition: 0.4s;
+}
+
+.nav-item:hover {
+    opacity: 0.6
 }
 
 .hamburger {
