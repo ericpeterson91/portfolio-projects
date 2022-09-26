@@ -10,7 +10,7 @@
     box-shadow: 0 8px 16px rgba(0,0,0,0.07);
 }
 
-.project-card:hover {
+/* .project-card:hover {
     animation-name: bounce;
     animation-duration: .4s;
 }
@@ -25,7 +25,7 @@
     100% {
         transform: translateY(0px);
     }
-}
+} */
 
 .name {
     font-size: 25px;
