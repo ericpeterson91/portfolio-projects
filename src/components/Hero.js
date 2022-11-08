@@ -75,13 +75,13 @@ const Hero = () => {
           link={project4.link}
           appType={project4.appType}
         />
-        <Project
+        {/* <Project
           name={reactNotes.name}
           src={reactNotesimg}
           description={reactNotes.description}
           link={reactNotes.link}
           appType={reactNotes.appType}
-        />
+        /> */}
       </div>
     </div>
   );
