@@ -1,0 +1,140 @@
+.project-card {
+    background: rgb(80, 80, 80);
+    border-radius: 10px;
+    margin: 10px; 
+    padding: 5px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.07);
+}
+
+/* .project-card:hover {
+    animation-name: bounce;
+    animation-duration: .4s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+} */
+
+.name {
+    font-size: 25px;
+    color: var(--lightblue);
+    font-weight: 700;
+}
+
+.desc {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 20px;
+    color: var(--lightgrey);
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.p-link {
+    text-decoration: underline;
+    font-size: 20px;
+    color: var(--lightblue);
+    transition: 0.4s;
+}
+
+.p-link:hover {
+    opacity: 0.7;
+    color: rgb(102, 210, 159)
+    
+}
+
+.guest {
+    color: rgb(0, 233, 124);  
+    font-weight: bold;
+    letter-spacing: .05rem;
+}
+
+.guestD {
+    color: var(--lightgrey);
+    padding: 0 3px;
+}
+
+.guestP {
+    color: var(--lightgrey);
+    padding: 0 3px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+    font-size: 1em;
+    line-height: 1.3em;
+    padding: 0 5px;
+}
+
+.guest-container {
+    text-align: center;
+    margin: 32px auto;
+    font-size: 15px;
+}
+
+.bottom-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.app-type {
+    margin: 0 auto;
+    padding-right: 10px;
+    color: var(--lightblue);
+    font-size: 17px;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .p-link {
+        font-size: 18px;
+    }
+
+    .app-type {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    img {
+        margin-left: 10px;
+        height: 200px;
+        width: 200px;
+    }
+
+
+    .guest-container {
+        font-size: 12px;
+    }
+
+    .project-card {
+        border-radius: 0px;
+    }
+
+    .desc {
+        padding: 10px 15px;
+    }
+}
