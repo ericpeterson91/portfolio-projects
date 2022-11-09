@@ -15,6 +15,7 @@ const Navbar = () => {
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li onClick={handleClick} className='nav-item'><Link to='/portfolio-projects'>Projects </Link></li>
+                <li onClick={handleClick} className='nav-item'><Link to='/youtube'>Youtube Videos </Link></li>
                 <li onClick={handleClick} className='nav-item'><Link to='/about'>About Eric</Link></li>
                 <li onClick={handleClick} className='nav-item'><Link to='/contact'>Contact</Link></li>
             </ul>
