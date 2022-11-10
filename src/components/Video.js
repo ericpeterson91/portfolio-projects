@@ -6,7 +6,7 @@ const Video = ({ src, title }) => {
     <div>
       <h2 className="title-header">{title}</h2>
       <iframe
-        width="500"
+        width="450"
         height="255"
         src={src}
         title="YouTube video player"
