@@ -10,6 +10,25 @@
     box-shadow: 0 8px 16px rgba(0,0,0,0.07);
 }
 
+.youtube-container {
+    margin-top: 70px;
+}
+
+.y-cards {
+    background: var(--darkgrey);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: #d3d3d3;
+    width: 80vw;
+    margin: 50px auto 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 75px;
+    max-width: 1250px;
+}
+
 /* .project-card:hover {
     animation-name: bounce;
     animation-duration: .4s;
@@ -138,3 +157,4 @@ img {
         padding: 10px 15px;
     }
 }
+

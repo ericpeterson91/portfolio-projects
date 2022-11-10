@@ -1,9 +1,10 @@
 import React from "react";
-import Project from "./Project";
+// import Project from "./Project";
 import "./Youtube.css";
-import video1img from "../images/video1.png";
-import video2img from "../images/video2.png";
-import video3img from "../images/video3.png";
+// import video1img from "../images/video1.png";
+// import video2img from "../images/video2.png";
+// import video3img from "../images/video3.png";
+import Video from './Video'
 
 const Youtube = () => {
   const videos = 
@@ -39,29 +40,11 @@ const Youtube = () => {
   const {video1, video2, video3} = videos
 
   return (
-    <div className="hero-container">
-      <div className="cards">
-        <Project
-          name={video1.name}
-          src={video1img}
-          description={video1.description}
-          link={video1.link}
-          appType={video1.appType}
-        />
-        <Project
-          name={video2.name}
-          src={video2img}
-          description={video2.description}
-          link={video2.link}
-          appType={video2.appType}
-        />
-        <Project
-          name={video3.name}
-          src={video3img}
-          description={video3.description}
-          link={video3.link}
-          appType={video3.appType}
-        />
+    <div className="hero-container youtube-container">
+      <div className='youtube-cards y-cards'>
+        <Video src="https://www.youtube.com/embed/8PYEU-a409c"  title="CSS Smooth Transitions"/>
+        <Video src="https://www.youtube.com/embed/SrCTSnXdGp8"  title="Indexing into an Array at Random"/>
+        <Video src="https://www.youtube.com/embed/7P7sCZIUb2A"  title="Changing Color in JavaScript"/>
       </div>
     </div>
   );
