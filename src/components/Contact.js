@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
@@ -111,6 +111,12 @@ const Contact = () => {
             href="https://www.linkedin.com/in/eric-peterson-110a62162/"
           >
             <FaLinkedin size={60} className="linkedin" />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.youtube.com/channel/UCfliQXBmtkcMe2wbwzMYW1w"
+          >
+            <FaYoutube size={60} className="youtube" />
           </a>
         </div>
       </div>
