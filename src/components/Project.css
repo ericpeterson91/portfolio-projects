@@ -31,6 +31,7 @@
     font-size: 25px;
     color: var(--lightblue);
     font-weight: 700;
+    padding-top: 5px;
 }
 
 .desc {
