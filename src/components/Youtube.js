@@ -14,7 +14,7 @@ const Youtube = () => {
         <Video src="https://www.youtube.com/embed/MjbC0gF22kg"  title="React Components, Props, and State"/>
         <Video src="https://www.youtube.com/embed/SrCTSnXdGp8"  title="Indexing into an Array at Random"/>
         <Video src="https://www.youtube.com/embed/8PYEU-a409c"  title="CSS Smooth Transitions"/>
-        <Video src="https://www.youtube.com/embed/7P7sCZIUb2A"  title="Changing Color in JavaScript"/>
+        <Video src="https://www.youtube.com/embed/Kgp5U-2ySAY"  title="Changing Color in JavaScript"/>
       </div>
     </div>
   );
