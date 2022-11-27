@@ -11,6 +11,7 @@ const Youtube = () => {
   return (
     <div className="hero-container youtube-container">
       <div className='youtube-cards y-cards'>
+        <Video src="https://www.youtube.com/embed/OQ63ZKxcWKM"  title="Addition Game in JavaScript"/>
         <Video src="https://www.youtube.com/embed/cnZuvUZSOFY"  title="Timer App with setInterval()"/>
         <Video src="https://www.youtube.com/embed/MjbC0gF22kg"  title="React Components, Props, and State"/>
         <Video src="https://www.youtube.com/embed/tLzMVZWapu8"  title="Changing Color in JavaScript"/>
