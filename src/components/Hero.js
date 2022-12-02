@@ -33,7 +33,7 @@ const Hero = () => {
   const project4 = {
     name: "Personal Landing Page",
     description: "Personal landing page created with the MERN stack.",
-    link: "https://landing-page-personal.herokuapp.com/",
+    link: "https://landing-page9191.herokuapp.com/",
     appType: "Desktop Application",
   };
   const reactNotes = {
