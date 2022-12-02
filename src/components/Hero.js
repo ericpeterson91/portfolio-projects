@@ -17,14 +17,14 @@ const Hero = () => {
     appType: "Desktop/Mobile Application",
   };
   const project2 = {
-    name: "Stuff Portfolio",
+    name: "Stuff Portfolio - UNDER CONSTRUCTION",
     description:
       "Application to keep track of physical items. Project created using MongoDB, ExpressJS, and NodeJS.",
     link: "http://erics-project.herokuapp.com/",
     appType: "Desktop/Mobile Application",
   };
   const project3 = {
-    name: "Horoscope App",
+    name: "Horoscope App - UNDER CONSTRUCTION",
     description:
       "Horoscope application generated with Python, Django, and JavaScript.",
     link: "https://django-horoscope-app.herokuapp.com/",
