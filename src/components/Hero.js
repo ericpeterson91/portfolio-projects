@@ -24,10 +24,10 @@ const Hero = () => {
     appType: "Desktop/Mobile Application",
   };
   const project3 = {
-    name: "Horoscope App - UNDER CONSTRUCTION",
+    name: "Horoscope App",
     description:
       "Horoscope application generated with Python, Django, and JavaScript.",
-    link: "https://django-horoscope-app.herokuapp.com/",
+    link: "https://horoscope-app-9191.herokuapp.com/",
     appType: "Desktop/Mobile Application",
   };
   const project4 = {
