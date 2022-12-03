@@ -20,7 +20,7 @@ const Hero = () => {
     name: "Stuff Portfolio",
     description:
       "Application to keep track of physical items. Project created using MongoDB, ExpressJS, and NodeJS.",
-    link: "http://erics-project.herokuapp.com/",
+    link: "http://stuff-portfolio-9191.herokuapp.com/",
     appType: "Desktop/Mobile Application",
   };
   const project3 = {
