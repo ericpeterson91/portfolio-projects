@@ -17,7 +17,7 @@ const Hero = () => {
     appType: "Desktop/Mobile Application",
   };
   const project2 = {
-    name: "Stuff Portfolio - UNDER CONSTRUCTION",
+    name: "Stuff Portfolio",
     description:
       "Application to keep track of physical items. Project created using MongoDB, ExpressJS, and NodeJS.",
     link: "http://erics-project.herokuapp.com/",
