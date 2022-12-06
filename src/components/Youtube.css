@@ -74,8 +74,8 @@ img {
 }
 
 .p-link:hover {
-    opacity: 0.7;
-    color: rgb(102, 210, 159)
+    opacity: 0.8;
+    color: var(--lightblue)
     
 }
 
